@@ -24,6 +24,11 @@ namespace Full_GRASP_And_SOLID.Library
         {
             this.steps.Remove(step);
         }
+        public ArrayList GetSteps()
+        {
+            return steps;
+        }
+        
 
         public void PrintRecipe()
         {
